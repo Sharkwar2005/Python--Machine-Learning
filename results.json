@@ -1,0 +1,127 @@
+{
+    "group_members": [
+        {
+            "name": "محمد اسعد محمد محمد",
+            "id": "2401242242"
+        },
+        {
+            "name": "محمود عبدالرحمن عبداللطيف حسان",
+            "id": "2401244698"
+        },
+        {
+            "name": "ياسين علي حسن محمد",
+            "id": "2401248445"
+        },
+        {
+            "name": "مؤمن شريف محمد أحمد",
+            "id": "2401242751"
+        },
+        {
+            "name": "مازن محمود ابراهيم محمد",
+            "id": "2401241694"
+        }
+    ],
+    "best_hyperparameters": {
+        "PolynomialLasso": {
+            "alpha": 0.001
+        },
+        "KNeighborsRegressor": {
+            "n_neighbors": 5,
+            "weights": "distance",
+            "metric": "minkowski",
+            "p": 1
+        },
+        "DecisionTreeRegressor": {
+            "max_depth": 12,
+            "min_samples_split": 8,
+            "min_samples_leaf": 2,
+            "max_features": null
+        },
+        "SVR": {
+            "kernel": "rbf",
+            "C": "10",
+            "gamma": "scale",
+            "epsilon": "0.1"
+        },
+        "LogisticRegression": {
+            "C": 46.416,
+            "penalty": "l2"
+        },
+        "KNeighborsClassifier": {
+            "n_neighbors": 15,
+            "weights": "distance",
+            "metric": "minkowski",
+            "p": 1
+        },
+        "DecisionTreeClassifier": {
+            "max_depth": 8,
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "criterion": "gini",
+            "max_features": null
+        },
+        "SVC": {
+            "C": "50",
+            "kernel": "rbf",
+            "gamma": "scale"
+        }
+    },
+    "cv_stability": {
+        "Polynomial_Lasso_Regression": {
+            "mean": 0.9432,
+            "std": 0.1523
+        },
+        "Logistic_Regression": {
+            "mean": 0.8703,
+            "std": 0.0059
+        },
+        "Naive_Bayes": {
+            "mean": 0.7737,
+            "std": 0.0046
+        },
+        "KNN_Regressor": {
+            "mean": 2.1037,
+            "std": 0.5068
+        },
+        "DecisionTree_Regressor": {
+            "mean": 1.5321,
+            "std": 0.3102
+        },
+        "SVR": {
+            "mean": 1.9678,
+            "std": 0.0119
+        },
+        "KNN_Classifier": {
+            "mean": 0.8713,
+            "std": 0.0092
+        },
+        "DecisionTree_Classifier": {
+            "mean": 0.8773,
+            "std": 0.0088
+        },
+        "SVC": {
+            "mean": 0.8934,
+            "std": 0.0061
+        },
+        "GradientBoosting_Regressor": {
+            "mean": 0.9748,
+            "std": 0.0108
+        },
+        "GradientBoosting_Classifier": {
+            "mean": 0.9094,
+            "std": 0.0064
+        },
+        "Voting_Classifier": {
+            "mean": 0.9024,
+            "std": 0.0063
+        },
+        "Stacking_Regressor": {
+            "mean": 0.976,
+            "std": 0.0076
+        },
+        "Stacking_Classifier": {
+            "mean": 0.9092,
+            "std": 0.0057
+        }
+    }
+}
